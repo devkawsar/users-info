@@ -13,7 +13,8 @@ function App() {
 	return (
 		<div className="App">
 			<h1>Users Info: {users.length}</h1>
-			{console.log(users[0])}
+			<img src={users && users[0].picture.medium} alt="picture" /> alt="" />
+			{/* {console.log(users[0].picture.medium)} */}
 		</div>
 	);
 }
