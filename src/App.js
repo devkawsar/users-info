@@ -12,7 +12,7 @@ function App() {
 	}, []);
 	return (
 		<div className="App">
-			<h1>Users Info: {users.length}</h1>
+			<h1>Users Info: {users && users.length}</h1>
 			<img src={users && users[0].picture.medium} alt="picture" /> alt="" />
 			{/* {console.log(users[0].picture.medium)} */}
 		</div>
