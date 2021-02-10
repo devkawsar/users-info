@@ -1,0 +1,17 @@
+.user {
+	display: flex;
+	border: 2px solid burlywood;
+	margin-bottom: 20px;
+	margin-right: 5px;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+.user-img {
+	border-radius: 50%;
+}
+
+.user-data {
+	align-items: right;
+	/* justify-content: left; */
+}
