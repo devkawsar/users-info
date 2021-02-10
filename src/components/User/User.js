@@ -23,7 +23,7 @@ const User = (props) => {
 	];
 
 	{
-		salary.map((indivSalary) => console.log(indivSalary));
+		salary.map((indivSalary) => indivSalary);
 	}
 
 	return (
@@ -34,7 +34,7 @@ const User = (props) => {
 			<div className="user-data">
 				<h6>Name: {name.title + " " + name.first + " " + name.last}</h6>
 				<h6>Job: developer</h6>
-				{<h6>Salary: {salary[0]}</h6>}
+				{<h6>Salary: {indivSalary}</h6>}
 				<button>Add User</button>
 			</div>
 		</div>
